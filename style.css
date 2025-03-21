@@ -305,6 +305,11 @@ main .section {
     border-radius: 50%;
 }
 
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
 .second-content button {
     background-color: #E6E8F7;
     /* width: 100%; */
@@ -312,6 +317,16 @@ main .section {
     padding: 4px;
     border: none;
     border-radius: 50%;
+}
+
+.third-section-content .col-7 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.fourth-section-content .col-7 img {
+    max-width: 100%;
+    height: auto;
 }
 
 .separation-box {
@@ -340,8 +355,15 @@ main .section {
     border: 2px solid gray;
 }
 
+.fifth-section-image img {
+    max-width: 100%;
+    height: auto;
+}
+
 .sixth-section-content .col-6 img {
     box-shadow: 45px 45px 0px #EDF2FC;
+    max-width: 100%;
+    height: auto;
 }
 
 .sixth-section-second-content {
@@ -351,6 +373,17 @@ main .section {
 .seventh-section-second-content-inner {
     border: 1px solid gray;
     box-shadow: 15px 15px 0px #F0F1F9;
+}
+
+.seventh-section-second-content-inner-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.seventh-section-second-content-inner-image img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 .dot span {
@@ -439,7 +472,7 @@ hr {
 .type input {
     background-color: #3A4557;
     border: none;
-    font-size: 18px;
+    font-size: 16px;
     padding: 15px;
     outline: none;
 }
