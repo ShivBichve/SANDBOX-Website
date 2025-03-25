@@ -418,12 +418,12 @@ main .section {
 
 .eighth-section-second-main-content {
     border: 1px solid gray;
-    padding: 30px 50px;
-    margin: 0px 10px;
+    padding: 50px 50px;
+    width: 100%;
 }
 
 .eighth-section-second-main-content .top {
-    margin: 0px 60px;
+    margin: 0 60px;
 }
 
 .eighth-section-second-main-content .last {
